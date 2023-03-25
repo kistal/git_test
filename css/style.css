@@ -1,0 +1,13 @@
+body {
+    background-color: #1e1e2e;
+    color: #9eb3dc;
+    font-size: 24;
+    font-family: sans-serif;
+    word-wrap: normal;
+    width: 60%;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    color: #dc8f44;
+}

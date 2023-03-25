@@ -6,12 +6,12 @@ body {
     word-wrap: normal;
     width: 60%;
     text-align: center;
-    /* Background pattern from site */
-    
+
 }
 h1 {
     font-size: 50px;
-    color: #dc8f44;
+    color: palevioletred;
+    margin-bottom: 0px;
 }
 a {
     color: chartreuse;
@@ -36,4 +36,10 @@ a {
 .text {
     background-color: #1e1e2e;
     opacity: 70%;
+}
+.gohome {
+    margin-top: 0px;
+}
+p {
+    width: 50%;
 }

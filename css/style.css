@@ -1,45 +1,71 @@
 body {
     background-color: #1e1e2e;
     color: #9eb3dc;
-    font-size: 24;
+    font-size: 20px;
     font-family: sans-serif;
     word-wrap: normal;
-    width: 60%;
     text-align: center;
-
 }
 h1 {
-    font-size: 50px;
+    font-size: 70px;
     color: palevioletred;
     margin-bottom: 0px;
 }
-a {
-    color: chartreuse;
+a{
+    text-decoration: none;
+    margin: 20px;
+}
+a:visited{
+    color: gray;
+}
+a:hover, a:focus {
+    font-weight: bold;
+    color: green;
+}
+a:active {
+    
 }
 .final {
     background-color: blueviolet;
 }
 .intro {
-    font-size: xx-large;
+    
+    background-color: bisque;
+    /* padding: 50px 70px;
+    margin: 20px 50px; */
+    width: 400px;
+    float: left;
 }
-/* box model! */
-.box {
-    margin: auto;
-    padding: 40px;
-    border:#dc8f44 5px solid;
-    width: 300px;
-    background-color: #e5e5f7;
-    background-image:  linear-gradient(30deg, #9095f1 12%, transparent 12.5%, transparent 87%, #9095f1 87.5%, #9095f1), linear-gradient(150deg, #9095f1 12%, transparent 12.5%, transparent 87%, #9095f1 87.5%, #9095f1), linear-gradient(30deg, #9095f1 12%, transparent 12.5%, transparent 87%, #9095f1 87.5%, #9095f1), linear-gradient(150deg, #9095f1 12%, transparent 12.5%, transparent 87%, #9095f1 87.5%, #9095f1), linear-gradient(60deg, #9095f177 25%, transparent 25.5%, transparent 75%, #9095f177 75%, #9095f177), linear-gradient(60deg, #9095f177 25%, transparent 25.5%, transparent 75%, #9095f177 75%, #9095f177);
-    background-size: 64px 112px;
-    background-position: 0 0, 0 0, 32px 56px, 32px 56px, 0 0, 32px 56px;
+.middle {
+    background-color: #c3f4ff;
+    /* padding: 50px 70px;
+    margin: 20px 50px; */
+    width: 400px;
+    float: right;
 }
-.text {
-    background-color: #1e1e2e;
-    opacity: 70%;
+.middle p {
+    color: black;
 }
-.gohome {
-    margin-top: 0px;
+.list1 {
+    list-style-position: inside;
+    list-style-type:decimal;
+    background: hotpink;
+    padding: 20px;
+    color: black;
 }
-p {
-    width: 50%;
+.list1 li {
+    background-color: rgb(57, 196, 217);
+    margin-bottom: 10px;
+}
+.linkbox {
+    background-color: #9eb3dc;
+    clear: both;
+}
+.linkbox a {
+    color: black;
+}
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
 }
